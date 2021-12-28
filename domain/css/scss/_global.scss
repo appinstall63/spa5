@@ -1,0 +1,37 @@
+
+// $bg:rgb(248, 187, 187);
+$bg:#fff;
+$bg1:#f2f2f2;
+// $txt:red;
+$txt:gray;
+$sh: 0px 3px 10px gold;
+$sh1: 0px 3px 10px gray;
+body{
+ background: $bg;
+ color: $txt;
+}
+.btn{
+ text-transform: capitalize;
+}
+
+img{
+ width: 100%;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

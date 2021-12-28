@@ -1,0 +1,103 @@
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.bd {
+  border: 3px dashed red;
+}
+
+.bd1 {
+  border: 3px dashed green;
+}
+
+.bd2 {
+  border: 3px dashed blue;
+}
+
+.bd3 {
+  border: 3px dashed cyan;
+}
+
+.bd4 {
+  border: 3px dashed gold;
+}
+
+.bd5 {
+  border: 3px dashed navy;
+}
+
+.bd6 {
+  border: 3px dashed brown;
+}
+
+.bd7 {
+  border: 3px dashed navy;
+}
+
+.bd8 {
+  border: 3px dashed purple;
+}
+
+.bd9 {
+  border: 3px dashed palegreen;
+}
+
+.bd10 {
+  border: 3px dashed orange;
+}
+
+section, .spc {
+  padding: 80px 0;
+}
+
+body {
+  background: #fff;
+  color: gray;
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+.service .cnt {
+  background: #f2f2f2;
+  box-shadow: 0px 3px 10px green;
+  padding: 35px;
+}
+
+.service .cnt:hover {
+  box-shadow: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.service .cnt .images img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.ftr .icon a {
+  background: red;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.ftr .icon a:hover {
+  background: white;
+  color: red;
+  cursor: pointer;
+  transition: 0.5s;
+}

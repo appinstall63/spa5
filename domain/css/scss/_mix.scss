@@ -1,0 +1,51 @@
+
+@mixin zero {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin icon_style {
+ border: 3px dashed red;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background: red;
+ color: #fff;
+ @include center;
+ font-size: 22px;
+ &:hover{
+ background: none;
+ color: red;
+ border: 3px solid red;
+ cursor: pointer;
+ transition: 0.5s;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
